@@ -5,6 +5,6 @@ button {
     padding: 100px;
     align-items: center;
 }
-.main {
-    align-content: center;
+#main {
+    text-align: center
 }
