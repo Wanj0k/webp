@@ -1,10 +1,56 @@
-button {
-    background-color:black;
+
+html {
+    height: 100%;
+    background: rgb(255,162,0);
+background: -moz-radial-gradient(circle, rgba(255,162,0,1) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(255,162,0,1) 0%, rgba(0,0,0,1) 100%);
+background: radial-gradient(circle, rgba(255,162,0,1) 0%, rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa200",endColorstr="#000000",GradientType=1);
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+
+.poi {
+    background:black;
     border-radius: 100px;
     color: #fff;
     padding: 100px;
     align-items: center;
 }
+.poi .click {
+    background: #21f;
+}
 #main {
     text-align: center
 }
+
+#up {
+    size: 100px
+}
+#upgrade {
+    text-align: center
+}
+
+#greyBar {
+    background-color: #ffffff;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 100px;
+    margin-top: 50px;
+    height: 10px;
+  }
+
+  #greenBar {
+    width: 100%;
+    height: 10px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 10px;
+    color: white;
+    border-radius: 100px;
+    margin-top: 50px;
+  }
